@@ -1,0 +1,82 @@
+body{
+    color:yello;
+    font-family: 'Open Sans', sans-serif;
+        display: grid;
+        background-color: green;
+        font-family: 'Nosifer', cursive;
+        align-items: center;
+        justify-content: center;
+
+}
+#c{
+    background: url();
+
+}
+#d{
+    font-family: 'Nosifer', cursive;
+
+}
+#e{
+    font-family: 'Nosifer', cursive;
+
+}
+#umbrella{
+    z-index: 2;
+
+}
+.cover{
+    fill: green;
+
+}
+
+
+section {
+	
+	width: 523.446px;
+	height: 572.541px;
+}
+svg {
+	fill: yellow;
+	position: absolute;
+}
+
+.drop {
+	animation: drop 2s cubic-bezier(1, 0, 1, 0.5) infinite;
+	z-index: 1;
+	margin-top: 160px;
+
+}
+
+#drop-1 {
+	margin-left: 93.33px;
+}
+#drop-2 {
+	margin-left: 200.191px;
+	animation-delay: 1s;
+}
+#drop-3 {
+	margin-left: 366.71px;
+	animation-delay: 0.5s;
+}
+#drop-4 {
+	margin-left: 445.73px;
+	animation-fill-mode: forward;
+	animation-delay: 0;
+	fill:red;
+}
+#drop-5{
+	margin-left: 500.70px;
+	fill:red;
+	animation-play-state:running;
+}
+.drop:hover{
+	animation-play-state: paused;
+}
+@keyframes drop {
+	from {
+		transform: translateY(0) scaleY(0.8);
+	}
+	to {
+		transform: translateY(1024px);
+	}
+}
