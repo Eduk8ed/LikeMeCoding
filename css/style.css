@@ -5,9 +5,21 @@ body{
         background-color: green;
         font-family: 'Nosifer', cursive;
         align-items: center;
-        justify-content: center;
+        justify-content: center;background: black;
+        animation: color-me-in 5s;
+
 
 }
+@keyframes color-me-in {
+    /* You could think of as "step 1" */
+    0% {
+      background:rgb(233, 250, 3);
+    }
+    /* You could think of as "step 2" */
+    100% {
+      background: rgba(63, 85, 1, 0.918);
+    }
+  }
 .heart {
     background-color: red;
     display: inline-block;
