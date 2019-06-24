@@ -163,6 +163,10 @@ h1{
 }
 #statement{
   display: inline-block;
+  width:66%;
+  min-width: 332px;
+  vertical-align: top;
+  margin-right: 10px;
 }
 
 section {
