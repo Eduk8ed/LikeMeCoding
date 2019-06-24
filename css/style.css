@@ -161,7 +161,9 @@ h1{
     fill: green;
 
 }
-
+#statement{
+  display: inline-block;
+}
 
 section {
 	
