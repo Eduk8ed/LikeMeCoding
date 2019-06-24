@@ -126,6 +126,19 @@ h1{
     font-family: 'Roboto', sans-serif;
     
   }
+  #list{
+    padding: 0;
+    margin-top: 100px;
+  }
+  li{
+    display: inline-block; 
+      margin: 0 5px;
+      color: #005F55;
+      list-style: circle;
+      position: relative;
+      padding-left: 10px;
+
+  }
 
 #d{
     font-family: 'Nosifer', cursive;
