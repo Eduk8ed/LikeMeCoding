@@ -144,14 +144,21 @@ h1{
     font-family: 'Nosifer', cursive;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr;
-    margin: 25%;
+    margin: 0;
 
 }
 #e{
     font-family: 'Nosifer', cursive;
     position: center;
     color: #d28f1b;
+    width: max-content;
 
+}
+#g{
+  font-family: 'Courier New', Courier, monospace;
+  position: relative;
+  color: #d3d0da;
+  width: max-content;
 }
 #umbrella{
     z-index: 2;
