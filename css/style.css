@@ -138,7 +138,7 @@ h1{
   li{
     display: inline-block; 
       margin: 0 5px;
-      color: #005F55;
+      color: rgb(0, 95, 85);
       list-style: circle;
       position: relative;
       padding-left: 10px;
