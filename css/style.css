@@ -10,8 +10,9 @@ body{
 }
 #contactbody{
   font-display: 'Nosifer', cursive;
-  align-items: center;
-  background-color: rgb(105, 92, 146);
+  justify-content: left;
+  font:caption;
+  text-transform: capitalize;
   
 }
 p{
@@ -19,11 +20,11 @@ p{
   font-family: 'Roboto', sans-serif;
   display: block;
 }
+
 h1{
   position: relative;
     left: 50%;
     margin-left: -150px;
-    width: 240px;
     color: #d28f1b;
     font-family: 'Source Code Pro', sans-serif;
   }
@@ -130,7 +131,7 @@ h1{
   }
   #about{
     font-family: 'Roboto', sans-serif;
-    
+    max-width: 700px;
   }
   #list{
     padding: 0;
@@ -185,7 +186,8 @@ h1{
 section {
 	
 	width: 523.446px;
-	height: 572.541px;
+  height: 572.541px;
+  padding: 20px 95px;
 }
 svg {
 	fill: yellow;
