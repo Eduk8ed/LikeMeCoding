@@ -43,12 +43,8 @@ h1{
     left: 105px;
     top: -30px;
     display: inline-block;
-    transform-origin: 50% 250px;
     font-size: 70px;
-    width: 30px;
     height: 30px;
-    line-height: 20px;
-    text-align: center;
     text-shadow:
       0 0 2px rgba(204, 208, 212,0.9),
       0 15px 25px rgba(0, 0, 0, 0.3),
@@ -147,6 +143,13 @@ h1{
       position: relative;
       padding-left: 10px;
 
+  }
+  #li{
+    margin: 0 5px;
+    color: indianred;
+    list-style: circle;
+    position: relative;
+  
   }
 
 #d{
