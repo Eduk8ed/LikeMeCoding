@@ -8,6 +8,12 @@ body{
         justify-content: center;background:#4e7ba7;
         animation: color-me-in 5s;
 }
+#contactbody{
+  font-display: 'Nosifer', cursive;
+  align-items: center;
+  background-color: aqua;
+  
+}
 p{
   color:#b5b3be;
   font-family: 'Roboto', sans-serif;
