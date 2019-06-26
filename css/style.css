@@ -5,7 +5,7 @@ body{
         background-color: #b5b3be;
         font-family: 'Nosifer', cursive;
         align-items: center;
-        justify-content: center;background:#4e7ba7;
+        justify-content: center;background: #334c61;
         animation: color-me-in 5s;
 }
 #contactbody{
@@ -16,9 +16,10 @@ body{
   
 }
 p{
-  color:#b5b3be;
-  font-family: 'Roboto', sans-serif;
+  color:#11044e;
+  font-family: cursive;
   display: block;
+  padding: 25px 125px;
 }
 
 h1{
@@ -62,18 +63,19 @@ h1{
 @keyframes color-me-in {
     
     0% {
-      background:#d3d0da;
+      background:#9066f1;
     }
     50%{
-      background-color: #b5b3be;
+      background-color: rgb(146, 122, 255);
     }
     
     100% {
-      background: #4e7ba7;
+      background:#4e7ba7
+      
     }
   }
 .heart {
-    background-color: red;
+    background-color:indianred;
     display: inline-block;
     height: 1em;
     margin: 0 10px;
@@ -91,7 +93,7 @@ h1{
   .heart:before,
   .heart:after {
     content: "";
-    background-color: red;
+    background-color: lightcoral;
     border-radius: 50%;
     height: 1em;
     position: absolute;
@@ -164,7 +166,7 @@ h1{
 #g{
   font-family: 'Courier New', Courier, monospace;
   position: relative;
-  color: #d3d0da;
+  color: lightcoral;
   width: max-content;
 }
 #umbrella{
@@ -172,7 +174,7 @@ h1{
 
 }
 .cover{
-    fill: green;
+    fill: rgb(0, 156, 161);
 
 }
 #statement{
@@ -187,10 +189,10 @@ section {
 	
 	width: 523.446px;
   height: 572.541px;
-  padding: 20px 95px;
+  padding: 20px 90px 20px 160px;
 }
 svg {
-	fill: yellow;
+	fill: goldenrod;
 	position: absolute;
 }
 
@@ -220,11 +222,11 @@ svg {
 	margin-left: 445.73px;
 	animation-fill-mode: forward;
 	animation-delay: 0;
-	fill:red;
+	fill:indianred;
 }
 #drop-5{
 	margin-left: 500.70px;
-	fill:red;
+	fill: antiquewhite;
 	animation-play-state:running;
 }
 .drop:hover{
