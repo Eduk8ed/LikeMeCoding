@@ -317,7 +317,7 @@ body {
 
 .item:hover::after {
     content: "Сlick to get more info...";
-    font-family: 'Cedarville Cursive', cursive;
+    font-family: 'Courier New', Courier, monospace;
     font-size: 0.9em;
     position: absolute;
     bottom: 0;
@@ -341,7 +341,7 @@ body {
 
 
 .big-panel {
-    font-family: 'Cedarville Cursive', cursive;
+    font-family: fantasy;
     position: absolute;
     width: 0;
     top: 0;
